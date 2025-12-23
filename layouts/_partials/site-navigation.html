@@ -2,7 +2,7 @@
   <div class="flex-l center items-center justify-between">
     <a href="{{ "/about" | relLangURL }}" class="f3 fw2 hover-white white-90 dib no-underline">
       {{ with .Site.Params.site_logo }}
-        <img src="{{ urls.RelURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
+        <img src="{{ urls.RelURL . }}" class="w50 mw3-ns" style="border-radius: 8px;" alt="{{ $.Site.Title }}" />
       {{ else }}
         AAIIMS
       {{ end }}
